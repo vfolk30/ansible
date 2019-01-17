@@ -1,8 +1,7 @@
 ---
 - hosts: all
   tasks:
-  -  name: install httpd
-     become: yes
+  -  name: install http
      yum:
        name: httpd
        state: latest
